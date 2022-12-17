@@ -1,0 +1,17 @@
+body {
+    background-color: #70727B;
+    height: 100%;
+    margin: 0;
+    padding: 24px 5% 0px 5%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    font-weight: 400;
+    padding: 8px 0 16px 0;
+}
+
+p {
+    color: #fff;
+    font-size: 1.6em;
+}
