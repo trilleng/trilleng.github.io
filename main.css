@@ -64,7 +64,6 @@ article {
 #form {
     border-radius: 25px;
     border: 1px solid #3C1300;
-    padding: 20px;
     margin: 20px;
 }
 
@@ -82,7 +81,34 @@ footer {
 
 #column-2 {
     width: 50%;
+    float: right;
+}
+
+.field {
+    padding: 8px 20px;
+}
+
+label {
+    font-weight: 700;
+    display: block;
+    margin: 8px 0;
+}
+
+input {
+    width: 100%;
+    border-color: #3C1300;
+    border-width: 1px;
+    border-radius: 8px;
+    height: 35px;
+}
+
+#form-column-1 {
+    width: 50%;
     display: inline-block;
+}
+
+#form-column-2 {
+    width: 50%;
     float: right;
 }
 
