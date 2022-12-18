@@ -1,17 +1,47 @@
 body {
-    background-color: #70727B;
+    background-color: #FFFAF8;
+    color: #3C1300;
     height: 100%;
     margin: 0;
-    padding: 24px 5% 0px 5%;
-    font-family: 'Work Sans', sans-serif;
+    padding: 24px;
+    font-family: 'Mulish', sans-serif;
 }
 
-header {
+h1 {
+    font-size: 200px;
+    font-weight: 900;
+    margin: 0;
+}
+
+h2 {
+    font-size: 47px;
+    font-family: 'BioRhyme', serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+ul {
+    font-size: 18px;
     font-weight: 400;
-    padding: 8px 0 16px 0;
 }
 
 p {
-    color: #fff;
-    font-size: 1.6em;
+    font-size: 18px;
+    font-weight: 400;
 }
+
+footer {
+    font-weight: 500;
+}
+
+/* 
+Text: #3C1300
+Primary: #FF8854
+Background: #FFFAF8
+Secondary: #FFC4AA
+*/
