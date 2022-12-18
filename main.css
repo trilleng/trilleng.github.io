@@ -1,16 +1,24 @@
+html {
+    margin: 0;
+    padding: 0;  
+}
+
 body {
     background-color: #FFFAF8;
     color: #3C1300;
     height: 100%;
     margin: 0;
-    padding: 24px;
+    padding: 0;
     font-family: 'Mulish', sans-serif;
+    font-size: 18px;
 }
 
 h1 {
     font-size: 200px;
     font-weight: 900;
     margin: 0;
+    color: #FF8854;
+    padding: 24px;
 }
 
 h2 {
@@ -18,6 +26,7 @@ h2 {
     font-family: 'BioRhyme', serif;
     font-weight: 700;
     margin: 0;
+    padding: 24px;
 }
 
 h3 {
@@ -31,12 +40,32 @@ ul {
 }
 
 p {
-    font-size: 18px;
     font-weight: 400;
 }
 
 footer {
     font-weight: 500;
+}
+
+article {
+    border-radius: 25px;
+    border: 1px solid #3C1300;
+    padding: 20px;
+    margin: 20px;
+}
+
+#form {
+    border-radius: 25px;
+    border: 1px solid #3C1300;
+    padding: 20px;
+    margin: 20px;
+}
+
+footer {
+    background-color: #FF8854;
+    color: #FFFAF8;
+    text-align: center;
+    padding: 24px;
 }
 
 /* 
