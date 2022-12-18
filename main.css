@@ -10,15 +10,21 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Mulish', sans-serif;
-    font-size: 18px;
+    font-size: 18px; 
+}
+
+.content {
+    margin: auto;
+    max-width: 1024px;
 }
 
 h1 {
     font-size: 200px;
     font-weight: 900;
     margin: 0;
+    padding: 0;
     color: #FF8854;
-    padding: 24px;
+    text-align: center;
 }
 
 h2 {
@@ -26,7 +32,8 @@ h2 {
     font-family: 'BioRhyme', serif;
     font-weight: 700;
     margin: 0;
-    padding: 24px;
+    padding: 0;
+    text-align: center;
 }
 
 h3 {
@@ -66,6 +73,17 @@ footer {
     color: #FFFAF8;
     text-align: center;
     padding: 24px;
+}
+
+#column-1 {
+    width: 50%;
+    display: inline-block;
+}
+
+#column-2 {
+    width: 50%;
+    display: inline-block;
+    float: right;
 }
 
 /* 
