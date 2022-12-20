@@ -1,16 +1,28 @@
+:root {
+    --text-color: #3C1300;
+    --primary-color: #FF8854;
+    --background-color: #FFFAF8;
+    --secondary-color: #FFC4AA;
+}
+
+::selection {
+    background: var(--secondary-color);
+}
+
+
 html {
     margin: 0;
     padding: 0;  
 }
 
 body {
-    background-color: #FFFAF8;
-    color: #3C1300;
+    background-color: var(--background-color);
+    color: var(--text-color);
     height: 100%;
     margin: 0;
     padding: 0;
     font-family: 'Mulish', sans-serif;
-    font-size: 18px; 
+    font-size: 1.3em;
 }
 
 .content {
@@ -19,16 +31,17 @@ body {
 }
 
 h1 {
-    font-size: 200px;
+    font-size: 8em;
     font-weight: 900;
     margin: 0;
     padding: 0;
-    color: #FF8854;
+    color: var(--primary-color);
     text-align: center;
+    text-shadow: -4px 4px 0px #E14400;
 }
 
 h2 {
-    font-size: 47px;
+    font-size: 2.5em;
     font-family: 'BioRhyme', serif;
     font-weight: 700;
     margin: 0;
@@ -37,12 +50,11 @@ h2 {
 }
 
 h3 {
-    font-size: 22px;
     font-weight: 700;
 }
 
 ul {
-    font-size: 18px;
+    font-size: 1em;
     font-weight: 400;
 }
 
@@ -56,20 +68,20 @@ footer {
 
 article {
     border-radius: 25px;
-    border: 1px solid #3C1300;
+    border: 1px solid var(--text-color);
     padding: 20px;
     margin: 20px;
 }
 
 #form {
     border-radius: 25px;
-    border: 1px solid #3C1300;
+    border: 1px solid var(--text-color);
     margin: 20px;
 }
 
 footer {
-    background-color: #FF8854;
-    color: #FFFAF8;
+    background-color: var(--primary-color);
+    color: var(--background-color);
     text-align: center;
     padding: 24px;
 }
@@ -96,9 +108,10 @@ label {
 
 input {
     width: 100%;
-    border-color: #3C1300;
+    border-color: var(--text-color);
     border-width: 1px;
     border-radius: 8px;
+    background-color: var(--background-color);
     height: 35px;
 }
 
@@ -112,9 +125,21 @@ input {
     float: right;
 }
 
-/* 
-Text: #3C1300
-Primary: #FF8854
-Background: #FFFAF8
-Secondary: #FFC4AA
-*/
+.styled {
+    font-family: 'BioRhyme', serif;
+    border: 0;
+    font-size: 1em;
+    font-weight: 700;
+    text-align: center;
+    color: var(--background-color);
+    background-color: var(--text-color);
+    border-radius: 25px;
+    max-width: 300px;
+    height: 50px;
+    margin: 18px auto;
+    display: block;
+}
+
+.styled:hover {
+    cursor: pointer;
+}
