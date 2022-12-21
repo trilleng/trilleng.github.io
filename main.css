@@ -216,3 +216,7 @@ input {
 a {
     color: var(--primary-color);
 }
+
+.light {
+    color: var(--background-color);
+}
