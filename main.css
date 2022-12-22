@@ -31,6 +31,12 @@ body {
     background-repeat: repeat-x;
 }
 
+@media only screen and (max-width: 880px) {
+    #stripe {
+        background-image: url("stripe-mobile.svg");
+    }
+}
+
 .container {
     margin: auto;
     max-width: 1024px;
