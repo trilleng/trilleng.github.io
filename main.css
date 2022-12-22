@@ -46,7 +46,13 @@ h1 {
         margin: 16px 0 4px 0;
         text-shadow: -2px 2px 0px #E14400;
     }
+
+    .stripe {
+        display: none;
+    }
 }
+
+
 
 h2 {
     font-size: 2.5em;
