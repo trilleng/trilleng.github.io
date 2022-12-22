@@ -25,6 +25,12 @@ body {
     font-size: 1.3em;
 }
 
+#stripe {
+    height: 20px;
+    background-image: url("stripe.svg");
+    background-repeat: repeat-x;
+}
+
 .container {
     margin: auto;
     max-width: 1024px;
