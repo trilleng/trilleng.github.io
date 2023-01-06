@@ -22,7 +22,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Mulish', sans-serif;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 #stripe {
@@ -61,7 +61,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.2em;
+    font-size: 2.1em;
     font-family: 'BioRhyme', serif;
     font-weight: 700;
     margin: 0;
@@ -83,7 +83,7 @@ h3 {
 }
 
 h4 {
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin: 24px 0;
     font-weight: 700;
     text-align: center;
